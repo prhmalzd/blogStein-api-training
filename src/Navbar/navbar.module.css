@@ -1,0 +1,59 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  margin-bottom: 30px;
+}
+.logo a {
+  padding: 0 10px;
+  font-size: 2rem;
+  cursor: default;
+  cursor: pointer;
+  color: #f2a501;
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #ffbe34;
+}
+
+.auth {
+  display: flex;
+  padding: 0 10px;
+  gap: 20px;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.auth li {
+  list-style: none;
+}
+
+.link2 a,
+.li {
+  text-decoration: none;
+  background-color: #f2a501;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: end;
+  transition: all 0.1s ease-in-out;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.link2 a:hover,
+.li:hover {
+  color: #fff;
+  background-color: #ffbe34;
+  cursor: pointer;
+}
+.link:visited {
+  color: #fff;
+}
+.auth span {
+  color: #f2a501;
+  font-size: 2rem;
+  cursor: default;
+}

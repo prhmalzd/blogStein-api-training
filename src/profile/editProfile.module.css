@@ -1,0 +1,114 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20%;
+}
+
+.title {
+  background-color: #f3f3f3;
+  border: none;
+  border-bottom: #f2a501 2px solid;
+  outline: none;
+  padding-left: 2px;
+  color: #000;
+  font-size: 1.2rem;
+}
+.erorrTheme {
+  border-bottom: #d01647 2px solid;
+}
+.erorrTheme::placeholder {
+  color: #d01647;
+}
+.label {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.imageHolder {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s;
+  margin-bottom: 5px;
+}
+.imageHolder img {
+  width: 320px;
+  margin-bottom: 5px;
+}
+
+.editBtn {
+  align-self: center;
+  color: #000;
+  padding: 10px 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+  border: #f2a501 solid 2px;
+  background-color: #f2a501;
+}
+.erorr {
+  color: #d01647;
+}
+
+/* for the avatar uploading */
+
+.avatarUpload {
+  position: relative;
+  max-width: 205px;
+  margin: auto;
+}
+.avatarUpload .avatarEdit {
+  position: absolute;
+  right: 12px;
+  z-index: 1;
+  top: -15px;
+}
+.avatarUpload .avatarEdit input {
+  display: none;
+}
+.avatarUpload .avatarEdit input + label {
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0;
+  border-radius: 100%;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: normal;
+  transition: all 0.1s ease-in-out;
+  background-color: #f3f3f3;
+  top: 15px;
+  right: -10px;
+}
+.avatarUpload .avatarEdit input + label:hover {
+  background: #b8b8b8;
+}
+.avatarUpload .avatarEdit input + label:after {
+  content: "\1F4F7";
+  font-size: 25px;
+  font-family: "FontAwesome";
+  color: #757575;
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+}
+.avatarUpload .avatarPreview {
+  width: 142px;
+  height: 142px;
+  position: relative;
+  border-radius: 100%;
+  border: 3px solid #b8b8b8;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+.avatarUpload .avatarPreview > div {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

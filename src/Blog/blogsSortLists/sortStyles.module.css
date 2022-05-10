@@ -1,0 +1,47 @@
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  width: 1100px;
+}
+
+.userStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  padding: 30px 50px;
+  font-size: 1.3rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  font-weight: 700;
+}
+.userStyle:hover {
+  background-color: #e9e9e9;
+  cursor: pointer;
+}
+.userStyle img {
+  width: 100px;
+}
+.userStyle p:last-child {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.nothingToShow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 200px;
+  width: 1100px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  justify-content: center;
+  border-radius: 15px;
+  color: #d01647;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.nothingToShow p:first-child {
+  font-size: 1.5rem;
+  font-weight: 700;
+}

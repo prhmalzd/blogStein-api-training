@@ -1,0 +1,80 @@
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.oneCommnet {
+  padding: 20px 0 20px 20px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  border-radius: 15px;
+  gap: 20px;
+}
+.commenter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.acc {
+  color: #d01647;
+  cursor: pointer;
+}
+.commentDate {
+  padding-right: 20px;
+  font-size: 0.65rem;
+  align-self: flex-end;
+}
+
+.submitComments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 40%;
+  align-self: center;
+  align-items: center;
+}
+.submitComments input {
+  border: 2px solid #d01647;
+  background-color: #f3f3f3;
+  padding: 5px 0 5px 10px;
+  border-radius: 7px;
+  outline: none;
+  font-weight: 600;
+  width: 100%;
+  height: 40px;
+}
+.submitComments input:focus {
+  background-color: #f6eff0;
+}
+.submitComments button {
+  padding: 5px 15px;
+  border: none;
+  background-color: #d01647;
+  color: #fff;
+  border-radius: 5px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.srotComments {
+  position: relative;
+  right: -15%;
+  display: flex;
+  padding: 0 10px;
+  gap: 10px;
+  align-items: center;
+}
+.srotComments li {
+  cursor: pointer;
+  list-style: none;
+  background-color: #d01647;
+  color: #fff;
+  border-radius: 6px;
+  padding: 2px 10px;
+}

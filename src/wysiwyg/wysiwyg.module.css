@@ -1,0 +1,42 @@
+.container {
+  position: absolute;
+  top: 15vh;
+}
+.editor {
+  color: white;
+  width: 100%;
+  border: 2px solid wheat;
+  margin: 20px 0 0 0;
+  height: 100px;
+  padding: 2px;
+}
+
+.handle {
+  color: rgba(98, 177, 254, 1);
+  direction: ltr;
+  unicode-bidi: bidi-override;
+}
+.hashtag {
+  color: rgba(95, 184, 138, 1);
+}
+.styleBtn {
+  color: white;
+  font-size: 1.2rem;
+  padding: 0 5px;
+  margin: 0 5px;
+  border: 2px white solid;
+  cursor: pointer;
+}
+
+.inlineStyleControls {
+  margin-top: 10px;
+}
+
+.hidePlaceholder::placeholder {
+  color: black;
+}
+
+.activated {
+  color: yellow;
+  border: 2px yellow solid;
+}

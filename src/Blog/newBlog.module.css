@@ -1,0 +1,86 @@
+.postArea {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  gap: 15px;
+}
+.lableTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 20px 0 0;
+}
+.title {
+  background-color: #f3f3f3;
+  font-size: 2rem;
+  border: none;
+  border-bottom: #000 2px solid;
+  outline: none;
+  padding-left: 5px;
+}
+.erorrTheme {
+  border-bottom: #d01647 2px solid;
+  color: #d01647;
+}
+.title::placeholder {
+  color: #d01647;
+}
+.post {
+  background-color: black;
+  outline: none;
+  width: 99%;
+  height: 90px;
+  color: #f2a501;
+  font-size: 1.2rem;
+  font-weight: 500;
+  resize: none;
+  cursor: text;
+  margin: 5px 0;
+  padding-left: 2px;
+}
+.post:focus::placeholder {
+  color: #edc368;
+}
+.post::placeholder {
+  color: #edc368;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.errorArea {
+  border: #d01647 1px solid;
+}
+.errorArea::placeholder {
+  color: #d01647;
+}
+
+.imageHolder {
+  display: flex;
+  flex-direction: column;
+  transition: all 0.1s;
+  margin-bottom: 5px;
+}
+.imageHolder img {
+  width: 320px;
+  margin-bottom: 5px;
+}
+
+.postBtn {
+  align-self: flex-end;
+  background-color: #f2a501;
+  color: #fff;
+  border: none;
+  padding: 8px 35px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  font-size: 1.2rem;
+}
+.postBtn:hover {
+  background-color: #ffbe34;
+}
+
+.error {
+  color: #d01647;
+  position: relative;
+}

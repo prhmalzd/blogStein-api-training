@@ -1,0 +1,72 @@
+.signup {
+  position: absolute;
+  top: 15vh;
+  padding: 60px 100px;
+  height: 300px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  justify-content: space-evenly;
+  color: #f2a501;
+  z-index: 9;
+  border-radius: 20px;
+}
+
+.signup label {
+  font-size: 1.2rem;
+}
+
+.input {
+  width: 100%;
+  font-size: 1.2rem;
+  margin-top: 5px;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-bottom: #f2a501 2px solid;
+  outline: none;
+}
+.imageInput {
+  background-color: black;
+  color: #f2a501;
+}
+.signup label {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.signup button {
+  background-color: #f2a501;
+  color: #fff;
+  border: none;
+  width: auto;
+  padding: 5px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+  transition: all 0.1s ease-in-out;
+  font-size: 1.2rem;
+}
+
+.signup button:hover {
+  background-color: #ffbe34;
+}
+.signup p {
+  align-self: center;
+  margin: 15px 0;
+}
+.signup p:last-child {
+  position: absolute;
+  bottom: -80px;
+  bottom: -110px;
+  color: #d01647;
+}
+
+.signup p span {
+  text-decoration: none;
+  color: #d01647;
+  border-bottom: #d01647 1px solid;
+  cursor: pointer;
+}

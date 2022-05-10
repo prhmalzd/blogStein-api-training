@@ -1,0 +1,35 @@
+.spanContainer {
+  display: flex;
+  width: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.span {
+  width: 21px;
+  height: 21px;
+  border-radius: 25px;
+  border: 2px #d01647 solid;
+  color: #f3f3f3;
+  text-align: center;
+}
+.span:hover {
+  background-color: #d01647;
+}
+.spanScored {
+  background-color: #f2a501;
+  border: 2px #f2a501 solid;
+}
+.spanContainer button {
+  padding: 2px 0;
+  width: 50px;
+  color: #fff;
+  border: none;
+  background-color: #d01647;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.spanContainer button:hover {
+  background-color: #af133d;
+}
